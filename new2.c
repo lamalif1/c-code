@@ -5,10 +5,10 @@ int main()
     printf("Enter a number: ");
     scanf("%d", &n);
 
-    while (n < 10)
+    while (n < 100)
     {
         n = n + 1;
-        if (n % 2 == 0)
+        if (n % 2 != 0)
         {
             continue;
         }
