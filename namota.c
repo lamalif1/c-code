@@ -8,12 +8,8 @@ int main()
     printf("%d ar namata holo:\n");
     while (i <= 10)
     {
-        printf("%d * %d = %d\n", n, i, n * i);
+        printf("%d X %d = %d\n", n, i, n * i);
         i++;
-        if (i == 11)
-        {
-            break;
-        }
     }
     return 0;
 }
