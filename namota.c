@@ -5,7 +5,7 @@ int main()
     printf("Enter a number: ");
     scanf("%d", &n);
 
-    printf("%d ar namata holo:\n");
+    printf("%d ar namata holo:\n", n);
     while (i <= 10)
     {
         printf("%d X %d = %d\n", n, i, n * i);
