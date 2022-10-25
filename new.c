@@ -1,18 +1,19 @@
 #include <stdio.h>
 int main()
 {
-    int n = 1;
+    int n;
+    printf("Enter a number: ");
+    scanf("%d", &n);
 
-    while (n <= 100)
+    while (n <= 200)
     {
         printf("%d\n", n);
         n++;
 
-        if (n > 10)
+        if (n > 100)
         {
             break;
         }
     }
-
     return 0;
 }
